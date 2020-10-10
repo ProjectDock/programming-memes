@@ -27,6 +27,26 @@ const MEMES = () => {
 
                 </div>
             </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/pi-rate14/does-he-bite.png')}/>
+
+                <div className="memes--details">
+                    {/* Your name below */}
+                    <p>Apoorva Srivastava</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href="https://github.com/pi-rate14"
+
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="memes--github" />
+                    </a>
+
+                </div>
+            </section>
 
 
 
