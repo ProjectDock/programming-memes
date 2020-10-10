@@ -12,7 +12,13 @@ function App() {
             <div className="site__content">
                 <MEMES />
             </div>
-
+            <footer>
+                <div className="footer-content">
+                    <p>
+                        Copyright © {new Date().getFullYear()} ProjectDock. All Rights Reserved.
+                    </p>
+                </div>
+            </footer>
 
         </>
     );

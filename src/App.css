@@ -50,3 +50,15 @@ section img {
     margin: 0 auto;
     cursor: pointer;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-end;
+}
