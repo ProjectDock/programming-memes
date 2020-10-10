@@ -9,7 +9,7 @@ const MEMES = () => {
 
             <section>
                 {/* Path to your meme below !Modify only the string! */}
-                <img src={require('./images/PD/spaghetti_oriented_programming.png')}/>
+                <img src={require('./images/PD/spaghetti_oriented_programming.png')} alt="Meme" />
 
                 <div className="memes--details">
                     {/* Your name below */}
