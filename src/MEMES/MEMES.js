@@ -1,7 +1,6 @@
 import React from 'react';
 
 const MEMES = () => {
-    
   return (
     <>
       {/*  Place your meme below  */}
@@ -154,26 +153,42 @@ const MEMES = () => {
           </a>
         </div>
       </section>
-        <section>
-                {/* Path to your meme below !Modify only the string! */}
-                <img src={require('./images/coyote-dev/projectmeme.jpg')}/>
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img src={require('./images/coyote-dev/projectmeme.jpg')} />
 
-                <div className="memes--details">
-                    {/* Your name below */}
-                    <p>Coyote</p>
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Coyote</p>
 
-                    {/* Your github link below */}
-                    <a
-                        href="https://github.com/coyote-dev"
+          {/* Your github link below */}
+          <a
+            href='https://github.com/coyote-dev'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img src={require('./images/IstvanAcs/php-python.jpeg')} />
 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <div className="memes--github" />
-                    </a>
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Istvan Acs</p>
 
-                </div>
-            </section>
+          {/* Your github link below */}
+          <a
+            href='https://github.com/St3ve89'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
 
       {/*  Place your meme above  */}
     </>
