@@ -1,79 +1,89 @@
-import React from 'react'
+import React from 'react';
 
 const MEMES = () => {
-    return(
-        <>
-        {/*  Place your meme below  */}
+  return (
+    <>
+      {/*  Place your meme below  */}
 
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img
+          src={require('./images/PD/spaghetti_oriented_programming.png')}
+          alt='Meme'
+        />
 
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Project Dock</p>
 
-            <section>
-                {/* Path to your meme below !Modify only the string! */}
-                <img src={require('./images/PD/spaghetti_oriented_programming.png')} alt="Meme" />
+          {/* Your github link below */}
+          <a
+            href='https://github.com/ProjectDock'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img src={require('./images/pi-rate14/does-he-bite.png')} />
 
-                <div className="memes--details">
-                    {/* Your name below */}
-                    <p>Project Dock</p>
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Apoorva Srivastava</p>
 
-                    {/* Your github link below */}
-                    <a
-                        href="https://github.com/ProjectDock"
+          {/* Your github link below */}
+          <a
+            href='https://github.com/pi-rate14'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img src={require('./images/AgnesBrettl/AgnesBrettl.jpg')} />
 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <div className="memes--github" />
-                    </a>
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Agnes Brettl</p>
 
-                </div>
-            </section>
-            <section>
-                {/* Path to your meme below !Modify only the string! */}
-                <img src={require('./images/pi-rate14/does-he-bite.png')}/>
+          {/* Your github link below */}
+          <a
+            href='https://github.com/brettl1991'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img src={require('./images/IstvanAcs/IstvanAcs.jpg')} />
 
-                <div className="memes--details">
-                    {/* Your name below */}
-                    <p>Apoorva Srivastava</p>
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Istvan Acs</p>
 
-                    {/* Your github link below */}
-                    <a
-                        href="https://github.com/pi-rate14"
+          {/* Your github link below */}
+          <a
+            href='https://github.com/St3ve89'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <div className="memes--github" />
-                    </a>
+      {/*  Place your meme above  */}
+    </>
+  );
+};
 
-                </div>
-            </section>
-            <section>
-                {/* Path to your meme below !Modify only the string! */}
-                <img src={require('./images/AgnesBrettl/AgnesBrettl.jpg')}/>
-
-                <div className="memes--details">
-                    {/* Your name below */}
-                    <p>Agnes Brettl</p>
-
-                    {/* Your github link below */}
-                    <a
-                        href="https://github.com/brettl1991"
-
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <div className="memes--github" />
-                    </a>
-
-                </div>
-            </section>
-
-
-
-
-        {/*  Place your meme above  */}
-        </>
-    )
-}
-
-export default MEMES
+export default MEMES;
