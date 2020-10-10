@@ -47,7 +47,26 @@ const MEMES = () => {
 
                 </div>
             </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/AgnesBrettl/AgnesBrettl.jpg')}/>
 
+                <div className="memes--details">
+                    {/* Your name below */}
+                    <p>Agnes Brettl</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href="https://github.com/brettl1991"
+
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="memes--github" />
+                    </a>
+
+                </div>
+            </section>
 
 
 
