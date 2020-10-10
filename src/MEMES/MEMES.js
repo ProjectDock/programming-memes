@@ -208,6 +208,25 @@ const MEMES = () => {
                     </a>
                 </div>
             </section>
+            
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/pixelatedjelly/dank.png')} />
+
+                <div className='memes--details'>
+                    {/* Your name below */}
+                    <p>pixelatedjelly</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href='https://github.com/pixelatedjelly'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        <div className='memes--github' />
+                    </a>
+                </div>
+            </section>
 
             {/*  Place your meme above  */}
         </>
