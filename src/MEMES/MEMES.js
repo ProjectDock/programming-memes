@@ -128,6 +128,26 @@ const MEMES = () => {
 
                 </div>
             </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/NN/sql_programmers.jpg')}/>
+
+                <div className="memes--details">
+                    {/* Your name below */}
+                    <p>Nick Neos</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href="https://github.com/nickneos"
+
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="memes--github" />
+                    </a>
+
+                </div>
+            </section>
 
 
 
