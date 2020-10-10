@@ -64,15 +64,52 @@ const MEMES = () => {
       </section>
       <section>
         {/* Path to your meme below !Modify only the string! */}
-        <img src={require('./images/IstvanAcs/IstvanAcs.jpg')} />
+        <img src={require('./images/NN/documentation.jpg')} />
 
         <div className='memes--details'>
           {/* Your name below */}
-          <p>Istvan Acs</p>
+          <p>Nick Neos</p>
 
           {/* Your github link below */}
           <a
-            href='https://github.com/St3ve89'
+            href='https://github.com/nickneos'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img src={require('./images/NN/prod_database.jpg')} />
+
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Nick Neos</p>
+
+          {/* Your github link below */}
+          <a
+            href='https://github.com/nickneos'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <div className='memes--github' />
+          </a>
+        </div>
+      </section>
+
+      <section>
+        {/* Path to your meme below !Modify only the string! */}
+        <img src={require('./images/TamasKn/meme.jpg')} />
+
+        <div className='memes--details'>
+          {/* Your name below */}
+          <p>Tamas Knisz</p>
+
+          {/* Your github link below */}
+          <a
+            href='https://github.com/TamasKn'
             target='_blank'
             rel='noopener noreferrer'
           >
