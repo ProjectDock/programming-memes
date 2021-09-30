@@ -1,4 +1,4 @@
-![alt text](src/HF2020.png)
+![alt text](src/hacktoberfest21_campaign-banner.webp)
 # Programming memes
 We are celebrating Hacktoberfest 2020 with the project where everyone can share a their favourite programming and IT memes.
 
