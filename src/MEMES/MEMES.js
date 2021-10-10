@@ -245,6 +245,42 @@ const MEMES = () => {
                     </a>
                 </div>
             </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/TamasKn/meme3.webp')} alt="meme" />
+
+                <div className='memes--details'>
+                    {/* Your name below */}
+                    <p>Tamas Knisz</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href='https://github.com/TamasKn'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        <div className='memes--github' />
+                    </a>
+                </div>
+            </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/TamasKn/meme4.webp')} alt="meme" />
+
+                <div className='memes--details'>
+                    {/* Your name below */}
+                    <p>Tamas Knisz</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href='https://github.com/TamasKn'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        <div className='memes--github' />
+                    </a>
+                </div>
+            </section>
 
             {/*  Place your meme above  */}
         </>
