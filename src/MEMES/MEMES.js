@@ -208,7 +208,7 @@ const MEMES = () => {
                     </a>
                 </div>
             </section>
-            
+
             <section>
                 {/* Path to your meme below !Modify only the string! */}
                 <img src={require('./images/pixelatedjelly/dank.png')} />
@@ -297,6 +297,66 @@ const MEMES = () => {
                     >
                         <div className='memes--github' />
                     </a>
+                </div>
+            </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/ptrkstrk/center_div.jpg')} alt="meme" />
+
+                <div className="memes--details">
+                    {/* Your name below */}
+                    <p>Piotr Kosturek</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href="https://github.com/ptrkstrk"
+
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="memes--github" />
+                    </a>
+
+                </div>
+            </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/ptrkstrk/control_flows.jpg')} alt="meme" />
+
+                <div className="memes--details">
+                    {/* Your name below */}
+                    <p>Piotr Kosturek</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href="https://github.com/ptrkstrk"
+
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="memes--github" />
+                    </a>
+
+                </div>
+            </section>
+            <section>
+                {/* Path to your meme below !Modify only the string! */}
+                <img src={require('./images/ptrkstrk/ML.png')} alt="meme" />
+
+                <div className="memes--details">
+                    {/* Your name below */}
+                    <p>Piotr Kosturek</p>
+
+                    {/* Your github link below */}
+                    <a
+                        href="https://github.com/ptrkstrk"
+
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="memes--github" />
+                    </a>
+
                 </div>
             </section>
 
