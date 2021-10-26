@@ -46,7 +46,7 @@ const MEMES = () => {
             </section>
             <section>
                 {/* Path to your meme below !Modify only the string! */}
-                <img src={require('./images/AgnesBrettl/AgnesBrettl.jpg')} />
+                <img src={require('./images/AgnesBrettl/sheldon.jpg')} />
 
                 <div className="memes--details">
                     {/* Your name below */}
