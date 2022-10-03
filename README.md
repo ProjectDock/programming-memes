@@ -1,6 +1,6 @@
 ![alt text](src/hacktoberfest_logo.png)
 # Programming memes
-We are celebrating Hacktoberfest 2021 with the project where everyone can share a their favourite programming and IT memes.
+We are celebrating Hacktoberfest 2022 with the project where everyone can share a their favourite programming and IT memes.
 
 ## Rules
 - Only IT or programming related memes will be accepted
@@ -60,6 +60,6 @@ It is a basic React application that listing HTML sections. Do not worry if you 
 12. Create a pull request to the original repo
 
 
-> Congratulations! You are now one step closer to getting the Hacktoberfest 2020 swags. You can check your progress at <https://hacktoberfest.digitalocean.com/profile> .
+> Congratulations! You are now one step closer to getting the Hacktoberfest 2022 swags. You can check your progress at <https://hacktoberfest.com/profile/> .
 
 Make sure you own the rights of the uploaded meme
