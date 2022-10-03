@@ -1,6 +1,6 @@
-![alt text](src/hacktoberfest21_campaign-banner.webp)
+![alt text](src/hacktoberfest_logo.png)
 # Programming memes
-We are celebrating Hacktoberfest 2021 with the project where everyone can share a their favourite programming and IT memes.
+We are celebrating Hacktoberfest 2022 with the project where everyone can share a their favourite programming and IT memes.
 
 ## Rules
 - Only IT or programming related memes will be accepted
@@ -21,7 +21,7 @@ It is a basic React application that listing HTML sections. Do not worry if you 
 
 4. Create a branch with your Github username
 
-5. Run `npm install` in your local repo
+5. Run `yarn install` in your local repo
 
 6. Create a folder with your Github username in `src/MEMES/images/` directory
 
@@ -53,13 +53,13 @@ It is a basic React application that listing HTML sections. Do not worry if you 
         </div>
     </section>
     ```
-10. Run `npm start` to see your changes at `localhost:3000` in your browser
+10. Run `yarn start` to see your changes at `localhost:3000` in your browser
 
 11. Commit and push the code to your fork
 
 12. Create a pull request to the original repo
 
 
-> Congratulations! You are now one step closer to getting the Hacktoberfest 2020 swags. You can check your progress at <https://hacktoberfest.digitalocean.com/profile> .
+> Congratulations! You are now one step closer to getting the Hacktoberfest 2022 swags. You can check your progress at <https://hacktoberfest.com/profile/> .
 
 Make sure you own the rights of the uploaded meme
