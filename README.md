@@ -21,7 +21,7 @@ It is a basic React application that listing HTML sections. Do not worry if you 
 
 4. Create a branch with your Github username
 
-5. Run `npm install` in your local repo
+5. Run `yarn install` in your local repo
 
 6. Create a folder with your Github username in `src/MEMES/images/` directory
 
@@ -53,7 +53,7 @@ It is a basic React application that listing HTML sections. Do not worry if you 
         </div>
     </section>
     ```
-10. Run `npm start` to see your changes at `localhost:3000` in your browser
+10. Run `yarn start` to see your changes at `localhost:3000` in your browser
 
 11. Commit and push the code to your fork
 
